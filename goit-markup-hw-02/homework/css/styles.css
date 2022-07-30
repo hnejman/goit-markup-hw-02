@@ -122,8 +122,6 @@ h2{
 }
 
 .portfolio--subbtn > p{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -134,15 +132,22 @@ h2{
 }
 
 .portfolio--subbtn{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     /* identical to box height, or 188% */
     
     letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio-subbtn-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
     
+    letter-spacing: 0.03em;
     color: #757575;
 }
 

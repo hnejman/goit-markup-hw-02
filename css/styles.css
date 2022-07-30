@@ -1,0 +1,177 @@
+:root{
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secoundary-font: font-family: 'Raleway', sans-serif;
+    --main-color: #2196F3; 
+    --secoundary-color:  #757575;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: var(--main-font);
+    font-family: var(--secoundary-font);
+    color: #212121;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* =======MENU====== */
+
+.navigation--logo{
+    font-family: var(--secoundary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,192;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.navigation--logo > span{
+    color: var(--main-color);
+}
+
+.navigation--list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,172;
+    letter-spacing: 0.02em;
+}
+.navigation--list-link:hover,
+.navigation--list-link:focus{
+    color: var(--main-color);
+}
+
+.address{
+    font-style: normal;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,423;
+    letter-spacing: 0.02em;
+    color: var(--secoundary-color);
+}
+
+.address--link{
+color: var(--secoundary-color);
+}
+.address--link:hover,
+.address--link:focus{
+    color: var(--main-color);
+}
+
+/* ===END=MENU====== */
+
+/* =======MAIN====== */
+
+.main-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #2F303A;
+    color: #ffffff;
+}
+
+.par-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.par{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secoundary-color);
+}
+
+.team li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #212121;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.667;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.port-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.port-btn:hover,
+.port-btn:focus{
+    color: #FFFFFF;
+    background-color: var(--main-color);
+}
+
+
+.subbtn-label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.subbtn-sublabel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ===END=MAIN====== */
+
+/* =======FOOTER==== */
+footer{
+    background-color: #2F303A;
+}
+
+ footer > .navigation--logo {
+    color: #ffffff;
+ }
+ 
+ footer > .address{
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+/* ===END=FOOTER==== */

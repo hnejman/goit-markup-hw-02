@@ -19,6 +19,11 @@ body{
     color: #212121;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 /* =======MENU====== */
 
 .navigation--logo{
@@ -109,7 +114,6 @@ color: var(--secoundary-color);
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    
     color: #212121;
 }
 
@@ -121,32 +125,36 @@ h2{
     letter-spacing: 0.03em;
 }
 
-.portfolio--subbtn > p{
+.port-btn{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
+    line-height: 1.62;
+    /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
+    color: #212121;
+}
+.port-btn:hover,
+.port-btn:focus{
+    color: #FFFFFF;
+    background-color: var(--main-color);
 }
 
-.portfolio--subbtn{
+
+.subbtn-label{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 1.88;
     /* identical to box height, or 188% */
-    
     letter-spacing: 0.03em;
-    color: #757575;
+    color: #212121;
 }
 
-.portfolio-subbtn-label{
+.subbtn-sublabel{
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     /* identical to box height, or 188% */
-    
     letter-spacing: 0.03em;
     color: #757575;
 }

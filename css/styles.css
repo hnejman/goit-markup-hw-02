@@ -23,7 +23,7 @@ body{
     margin: 0;
 }
 
-/* =======MENU====== */
+/* =======HEADER====== */
 
 .navigation--logo{
     font-family: var(--secoundary-font);
@@ -67,11 +67,11 @@ color: var(--secoundary-color);
     color: var(--main-color);
 }
 
-/* ===END=MENU====== */
+/* ===END=HEADER====== */
 
 /* =======MAIN====== */
 
-.main-header{
+h1{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;

@@ -25,7 +25,7 @@ body{
 
 /* =======HEADER====== */
 
-.navigation--logo{
+.navigation-logo{
     font-family: var(--secoundary-font);
     font-weight: 700;
     font-size: 26px;
@@ -34,22 +34,22 @@ body{
     color: #000000;
 }
 
-.navigation--logo > span{
+.navigation-logo span{
     color: var(--main-color);
 }
 
-.navigation--list-link{
+.navigation-list-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1,172;
     letter-spacing: 0.02em;
 }
-.navigation--list-link:hover,
-.navigation--list-link:focus{
+.navigation-list-link:hover,
+.navigation-list-link:focus{
     color: var(--main-color);
 }
 
-.address{
+.contact{
     font-style: normal;
     font-family: var(--main-font);
     font-weight: 500;
@@ -59,12 +59,12 @@ body{
     color: var(--secoundary-color);
 }
 
-.address--link{
+.contact-link{
 color: var(--secoundary-color);
 }
-.address--link:hover,
-.address--link:focus{
-    color: var(--main-color);
+.contact-link:hover,
+.contact-link:focus{
+    color: var(-main-color);
 }
 
 /* ===END=HEADER====== */
@@ -95,7 +95,7 @@ h1{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secoundary-color);
+    color: var(-secoundary-color);
 }
 
 .team li{
@@ -132,11 +132,12 @@ h2{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    cursor: pointer;
 }
 .port-btn:hover,
 .port-btn:focus{
     color: #FFFFFF;
-    background-color: var(--main-color);
+    background-color: var(-main-color);
 }
 
 
@@ -165,7 +166,7 @@ footer{
     background-color: #2F303A;
 }
 
- footer .navigation--logo {
+ footer .navigation-logo {
     color: #ffffff;
  }
  

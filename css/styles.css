@@ -16,9 +16,6 @@ li{
 body{
     font-family: var(--main-font,--secoundary-font);
     color: #212121;
-}
-
-*{
     padding: 0;
     margin: 0;
 }
@@ -32,6 +29,7 @@ body{
     line-height: 1,192;
     letter-spacing: 0.03em;
     color: #000000;
+    cursor: pointer;
 }
 
 .navigation-logo span{
@@ -61,6 +59,7 @@ body{
 
 .contact-link{
 color: var(--secoundary-color);
+cursor: pointer;
 }
 .contact-link:hover,
 .contact-link:focus{
@@ -98,12 +97,19 @@ h1{
     color: var(-secoundary-color);
 }
 
+.modal-btn{
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+}
+
 .team li{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -112,7 +118,6 @@ h1{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     color: #212121;
 }
 
@@ -128,7 +133,6 @@ h2{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -145,7 +149,6 @@ h2{
     font-weight: 400;
     font-size: 18px;
     line-height: 1.88;
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -154,7 +157,6 @@ h2{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #757575;
 }
